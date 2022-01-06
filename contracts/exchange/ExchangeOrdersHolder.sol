@@ -3,7 +3,7 @@ pragma solidity >=0.4.22 <0.9.0;
 pragma experimental ABIEncoderV2;
 
 
-import "./ExchangeDomain.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/exchange/ExchangeDomain.sol";
 
 contract ExchangeOrdersHolder {
 

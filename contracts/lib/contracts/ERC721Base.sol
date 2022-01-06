@@ -2,10 +2,10 @@
 pragma solidity >=0.4.22 <0.9.0;
 pragma experimental ABIEncoderV2;
 
-import "./HasSecondarySaleFees.sol";
-import "./HasTokenURI.sol";
-import "./HasContractURI.sol";
-import "./ERC721Enumerable.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/lib/contracts/HasSecondarySaleFees.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/lib/contracts/HasTokenURI.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/lib/contracts/HasContractURI.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/lib/contracts/ERC721Enumerable.sol";
 
 /**
  * @title Full ERC721 Token with support for tokenURIPrefix

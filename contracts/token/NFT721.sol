@@ -2,10 +2,10 @@
 pragma solidity >=0.4.22 <0.9.0;
 pragma experimental ABIEncoderV2;
 // OpenDog NFT721
-import "../lib/interface/IERC721.sol";
-import "../lib/contracts/ERC721Base.sol";
-import "../lib/utils/SignerRole.sol";
-import "../lib/utils/Ownable.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/lib/interface/IERC721.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/lib/contracts/ERC721Base.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/lib/utils/SignerRole.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/lib/utils/Ownable.sol";
 // OpenDog NFT721
 /**
  * @title OpenDog NFT721

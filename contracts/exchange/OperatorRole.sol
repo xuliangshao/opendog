@@ -2,8 +2,8 @@
 pragma solidity >=0.4.22 <0.9.0;
 pragma experimental ABIEncoderV2;
 
-import "../lib/utils/Context.sol";
-import "../lib/utils/Roles.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/lib/utils/Context.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/lib/utils/Roles.sol";
 
 contract OperatorRole is Context {
     using Roles for Roles.Role;

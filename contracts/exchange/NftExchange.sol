@@ -2,21 +2,21 @@
 pragma solidity >=0.4.22 <0.9.0;
 pragma experimental ABIEncoderV2;
 
-import "../lib/math/SafeMath.sol";
-import "../lib/interface/IERC1155.sol";
-import "../lib/utils/StringLibrary.sol";
-import "../lib/utils/BytesLibrary.sol";
-import "../lib/contracts/ERC165.sol";
-import "./OwnableOperatorRole.sol";
-import "./ERC20TransferProxy.sol";
-import "./TransferProxy.sol";
-import "./ExchangeOrdersHolder.sol";
-import "./ExchangeDomain.sol";
-import "./ExchangeState.sol";
-import "./TransferProxyForDeprecated.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/lib/math/SafeMath.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/lib/interface/IERC1155.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/lib/utils/StringLibrary.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/lib/utils/BytesLibrary.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/lib/contracts/ERC165.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/exchange/OwnableOperatorRole.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/exchange/ERC20TransferProxy.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/exchange/TransferProxy.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/exchange/ExchangeOrdersHolder.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/exchange/ExchangeDomain.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/exchange/ExchangeState.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/exchange/TransferProxyForDeprecated.sol";
 
-import "../lib/contracts/HasSecondarySaleFees.sol";
-import "../lib/utils/Ownable.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/lib/contracts/HasSecondarySaleFees.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/lib/utils/Ownable.sol";
 
 contract NftExchange is Ownable, ExchangeDomain {
     using SafeMath for uint;

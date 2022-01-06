@@ -2,10 +2,10 @@
 pragma solidity >=0.4.22 <0.9.0;
 pragma experimental ABIEncoderV2;
 
-import "../lib/interface/IERC721.sol";
-import "../lib/interface/IERC1155.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/lib/interface/IERC721.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/lib/interface/IERC1155.sol";
 
-import "./OwnableOperatorRole.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/exchange/OwnableOperatorRole.sol";
 
 contract TransferProxy is OwnableOperatorRole {
 

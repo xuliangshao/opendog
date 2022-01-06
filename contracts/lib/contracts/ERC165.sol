@@ -2,7 +2,7 @@
 pragma solidity >=0.4.22 <0.9.0;
 pragma experimental ABIEncoderV2;
 
-import "../interface/IERC165.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/lib/interface/IERC165.sol";
 
 /**
  * @dev Implementation of the {IERC165} interface.

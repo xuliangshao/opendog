@@ -2,8 +2,8 @@
 pragma solidity >=0.4.22 <0.9.0;
 pragma experimental ABIEncoderV2;
 
-import "./ExchangeDomain.sol";
-import "./OwnableOperatorRole.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/exchange/ExchangeDomain.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/exchange/OwnableOperatorRole.sol";
 
 
 contract ExchangeState is OwnableOperatorRole {

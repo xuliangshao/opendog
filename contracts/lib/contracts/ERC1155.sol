@@ -2,12 +2,12 @@
 pragma solidity >=0.4.22 <0.9.0;
 pragma experimental ABIEncoderV2;
 
-import "../interface/IERC1155.sol";
-import "./ERC165.sol";
-import "../interface/ERC1155TokenReceiver.sol";
-import "./Common.sol";
-import "../math/SafeMath.sol";
-import "../utils/Address.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/lib/interface/IERC1155.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/lib/contracts/ERC165.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/lib/interface/ERC1155TokenReceiver.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/lib/contracts/Common.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/lib/math/SafeMath.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/lib/utils/Address.sol";
 
 // A sample implementation of core ERC1155 function.
 contract ERC1155 is IERC1155, ERC165, CommonConstants

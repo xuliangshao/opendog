@@ -2,13 +2,13 @@
 pragma solidity >=0.4.22 <0.9.0;
 pragma experimental ABIEncoderV2;
 
-import "./ERC165.sol";
-import "../interface/IERC721.sol";
-import "../interface/IERC721Receiver.sol";
-import "../utils/Counters.sol";
-import "../math/SafeMath.sol";
-import "../utils/Context.sol";
-import "../utils/Address.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/lib/contracts/ERC165.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/lib/interface/IERC721.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/lib/interface/IERC721Receiver.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/lib/utils/Counters.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/lib/math/SafeMath.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/lib/utils/Context.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/lib/utils/Address.sol";
 
 /**
  * @title ERC721 Non-Fungible Token Standard basic implementation

@@ -2,12 +2,12 @@
 pragma solidity >=0.4.22 <0.9.0;
 pragma experimental ABIEncoderV2;
 
-import "../math/SafeMath.sol";
-import "./HasSecondarySaleFees.sol";
-import "./HasContractURI.sol";
-import "./ERC1155MetadataURI.sol";
-import "./ERC1155.sol";
-import "../utils/Ownable.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/lib/math/SafeMath.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/lib/contracts/HasSecondarySaleFees.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/lib/contracts/HasContractURI.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/lib/contracts/ERC1155MetadataURI.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/lib/contracts/ERC1155.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/lib/utils/Ownable.sol";
 
 contract ERC1155Base is HasSecondarySaleFees, Ownable, ERC1155MetadataURI, HasContractURI, ERC1155 {
 

@@ -2,7 +2,7 @@
 pragma solidity >=0.4.22 <0.9.0;
 pragma experimental ABIEncoderV2;
 
-import "./IERC721.sol";
+import "https://github.com/xuliangshao/opendog/tree/main/contracts/lib/interface/IERC721.sol";
 /**
  * @title ERC-721 Non-Fungible Token Standard, optional enumeration extension
  * @dev See https://eips.ethereum.org/EIPS/eip-721
