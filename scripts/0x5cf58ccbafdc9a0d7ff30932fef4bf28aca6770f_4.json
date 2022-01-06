@@ -1,0 +1,27 @@
+{
+  "NFT721": {
+    "address": "0x742925A564Ae37ff1C915795E76250366786a549"
+  },
+  "transferProxy": {
+    "address": "0x51A882A90fd56049A0C0e1411840D4600E1612E8"
+  },
+  "transferProxyForDeprecated": {
+    "address": "0x7D91767d4Eb286A15193e8229BE88D5500a3cfB8"
+  },
+  "erc20TransferProxy": {
+    "address": "0x701B216FeB0277a8733ee08eF2788b961A48C874"
+  },
+  "exchangeState": {
+    "address": "0x5C1b11525F4DbE5b5b2112Bd8642EcD1d5ad5881"
+  },
+  "exchangeOrderHolder": {
+    "address": "0xfc95c1e133a7299C2e4489FEaBBCD952722f588E"
+  },
+  "exchange": {
+    "address": "0x1b0136b230454486266ce36C4cB53d8bE003682B",
+    "transferProxyTx": "0x6c246f65ffd91bff3ce482c0504031091acacf56dbde46ffc1dee17bdaf05ffe",
+    "transferProxyForDeprecatedTx": "0x2d71e32c77ef1c02dde1be33805e5106eba984cc6afa723f8c6f687faf473c93",
+    "erc20TransferProxyTx": "0xe6351cb9b3c94340f1c4b20a2c0dc0319d67e5d656b31a641ce146fb842e6e0a",
+    "exchangeStateTx": "0x8ea233aaeda1549f7a106210c10ab280a0e2c1b51851ec1b2069e115c74b379b"
+  }
+}
